@@ -1,0 +1,50 @@
+body {
+	background-color: #011936;
+}
+
+ol {
+	width:600px;
+    margin:0 auto;
+    float: right;
+}
+
+li {
+	color: #F9DC5C;
+	font-family: "Amatic SC", cursive;
+	font-size: 30px;
+}
+
+li:hover {
+	color: #F4FFFD;
+}
+
+li:checked {
+	text-decoration: line-through;
+}
+
+h1 {
+	color: #F9DC5C;
+	background-color: #465362;
+	text-shadow: 2px 2px 2px #011936;
+	font-family: "shadows into light", cursive;
+	font-size: 75px;
+	text-align: center;
+	margin-left: 75px;
+	margin-right: 75px;
+	border: 5px solid #ED254E;
+}
+
+.add-task {
+	align-items: center;
+	font-family: "Amatic SC", cursive;
+	font-size: 40px;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 5px solid #ED254E;
+	background-color: #F9DC5C;
+	color: #465362;
+}
